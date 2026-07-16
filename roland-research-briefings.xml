@@ -5,7 +5,7 @@
     <link>https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml</link>
     <description>Private synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 10:43:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 22:28:46 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
@@ -13,6 +13,16 @@
       <itunes:name>Paul Rishar</itunes:name>
       <itunes:email>private@example.invalid</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Curtis Yarvin — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Thu, 16 Jul 2026 22:28:45 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260716_172104_curtis_yarvin_transcript_backed-curtis-yarvin</guid>
+      <itunes:duration>00:54:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/curtis-yarvin.mp3" length="19520640" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Kevin Kelly — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
