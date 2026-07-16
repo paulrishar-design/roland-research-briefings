@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Roland Research Briefings</title>
+    <link>https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml</link>
+    <description>Private synthetic audio briefings generated from Roland research notes.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2026 10:43:29 +0000</lastBuildDate>
+    <itunes:author>Roland</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Paul Rishar</itunes:name>
+      <itunes:email>private@example.invalid</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>Kevin Kelly — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Wed, 15 Jul 2026 12:25:27 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260715_074531_kevin_kelly_seeded-kevin-kelly</guid>
+      <itunes:duration>00:35:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/kevin-kelly.mp3" length="12638736" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Balaji Srinivasan — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Sun, 05 Jul 2026 22:49:40 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260705_182404_balaji_srinivasan-balaji-srinivasan</guid>
+      <itunes:duration>00:33:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/balaji-srinivasan.mp3" length="12039840" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Ray Kurzweil — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Sun, 05 Jul 2026 21:45:51 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260705_164808_ray_kurzweil-ray-kurzweil</guid>
+      <itunes:duration>00:44:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ray-kurzweil.mp3" length="15935328" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Michael Burry — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Sun, 05 Jul 2026 20:20:02 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260705_150029_michael_burry-michael-burry</guid>
+      <itunes:duration>00:32:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/michael-burry.mp3" length="11662992" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Aubrey De Grey — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Sun, 05 Jul 2026 16:22:15 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260705_115211_aubrey_de_grey-aubrey-de-grey</guid>
+      <itunes:duration>00:33:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/aubrey-de-grey.mp3" length="11971008" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Darryl Cooper — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Sat, 27 Jun 2026 14:42:52 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260626_083322_transcript_backed_v2-darryl-cooper</guid>
+      <itunes:duration>00:27:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/darryl-cooper.mp3" length="9735120" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Tyler Cowen — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:53:45 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-tyler-cowen</guid>
+      <itunes:duration>00:38:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/tyler-cowen.mp3" length="13934880" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Roman Yampolskiy — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:53:15 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-roman-yampolskiy</guid>
+      <itunes:duration>00:41:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/roman-yampolskiy.mp3" length="14779872" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Patrick Collison — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:45:26 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-patrick-collison</guid>
+      <itunes:duration>00:40:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/patrick-collison.mp3" length="14646096" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Leopold Aschenbrenner — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:43:26 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-leopold-aschenbrenner</guid>
+      <itunes:duration>00:41:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/leopold-aschenbrenner.mp3" length="15108192" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Ilya Sutskever — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:41:02 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-ilya-sutskever</guid>
+      <itunes:duration>00:50:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ilya-sutskever.mp3" length="18085536" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Dario Amodei — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:35:06 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-dario-amodei</guid>
+      <itunes:duration>00:40:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/dario-amodei.mp3" length="14579136" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Byrne Hobart — Research Briefing</title>
+      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
+      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
+      <pubDate>Tue, 16 Jun 2026 22:32:06 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260615_205134-byrne-hobart</guid>
+      <itunes:duration>00:49:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/byrne-hobart.mp3" length="17655552" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
