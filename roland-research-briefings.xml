@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 00:05:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 00:18:49 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -22,108 +22,56 @@
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
     <item>
-      <title>YouTube Miner Acceptance Handoff — Research Briefing</title>
+      <title>Alex Finn — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
       <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
       <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
       <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 18:01:00 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-youtube-miner-acceptance-handoff</guid>
-      <itunes:duration>00:11:48</itunes:duration>
+      <pubDate>Thu, 30 Jul 2026 18:20:00 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-alex-finn</guid>
+      <itunes:duration>00:03:09</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/youtube-miner-acceptance-handoff.mp3" length="8495378" type="audio/mpeg"/>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-finn.mp3" length="1135728" type="audio/mpeg"/>
     </item>
     <item>
-      <title>YouTube Miner Queue Acceptance Rollup — Research Briefing</title>
+      <title>Alex Wissner-Gross — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
       <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
       <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
       <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:59:01 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-youtube-miner-queue-acceptance-rollup</guid>
-      <itunes:duration>00:02:49</itunes:duration>
+      <pubDate>Thu, 30 Jul 2026 18:19:00 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-alex-wissner-gross</guid>
+      <itunes:duration>00:03:39</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/youtube-miner-queue-acceptance-rollup.mp3" length="2035088" type="audio/mpeg"/>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross.mp3" length="1316016" type="audio/mpeg"/>
     </item>
     <item>
-      <title>Alex Finn Queue Acceptance — Research Briefing</title>
+      <title>David Sacks — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
       <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
       <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
       <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:59:01 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-alex-finn-queue-acceptance</guid>
-      <itunes:duration>00:08:46</itunes:duration>
+      <pubDate>Thu, 30 Jul 2026 18:18:00 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-david-sacks</guid>
+      <itunes:duration>00:02:28</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-finn-queue-acceptance.mp3" length="6311124" type="audio/mpeg"/>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/david-sacks.mp3" length="885600" type="audio/mpeg"/>
     </item>
     <item>
-      <title>Alex Wissner-Gross Queue Acceptance — Research Briefing</title>
+      <title>Jensen Huang — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
       <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
       <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
       <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:55:33 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-alex-wissner-gross-queue-acceptance</guid>
-      <itunes:duration>00:08:34</itunes:duration>
+      <pubDate>Thu, 30 Jul 2026 18:17:00 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-jensen-huang</guid>
+      <itunes:duration>00:02:56</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross-queue-acceptance.mp3" length="6168182" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>David Sacks Queue Acceptance — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:51:18 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-david-sacks-queue-acceptance</guid>
-      <itunes:duration>00:05:22</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/david-sacks-queue-acceptance.mp3" length="3866376" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Jensen Huang Queue Acceptance — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:47:27 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-jensen-huang-queue-acceptance</guid>
-      <itunes:duration>00:09:59</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/jensen-huang-queue-acceptance.mp3" length="7190719" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Alex Wissner-Gross Standalone Acceptance — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:42:37 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-alex-wissner-gross-standalone-acceptance</guid>
-      <itunes:duration>00:21:33</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross-standalone-acceptance.mp3" length="15522735" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Alex Wissner-Gross Timeout Acceptance Attempt — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 17:31:02 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_acceptance-alex-wissner-gross-timeout-acceptance-attempt</guid>
-      <itunes:duration>00:11:18</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross-timeout-acceptance-attempt.mp3" length="8142725" type="audio/mpeg"/>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/jensen-huang.mp3" length="1058832" type="audio/mpeg"/>
     </item>
     <item>
       <title>Curtis Yarvin — Research Briefing</title>
