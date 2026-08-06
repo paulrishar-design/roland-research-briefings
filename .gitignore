@@ -13,6 +13,8 @@ cookies*
 tokens*
 auth*
 .DS_Store
+__pycache__/
+*.py[cod]
 notes/
 transcripts/
 logs/
