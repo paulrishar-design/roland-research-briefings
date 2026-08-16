@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 20:38:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 16:01:42 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -22,17 +22,17 @@
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
     <item>
-      <title>YouTube Miner Listening Queue — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
+      <title>Melanie Mitchell — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Melanie Mitchell, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Melanie Mitchell, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Melanie Mitchell, with synthetic narration.</itunes:summary>
       <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 06 Aug 2026 16:53:07 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260806_youtube_miner_listening-youtube-miner-listening-queue</guid>
-      <itunes:duration>00:10:10</itunes:duration>
+      <pubDate>Sun, 16 Aug 2026 15:56:20 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_fe98e3ef61fe45bb-melanie-mitchell</guid>
+      <itunes:duration>00:25:09</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/youtube-miner-listening-queue.mp3" length="3659760" type="audio/mpeg"/>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/melanie-mitchell.mp3" length="24152493" type="audio/mpeg"/>
     </item>
     <item>
       <title>Alex Finn — Research Briefing</title>
