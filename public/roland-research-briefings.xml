@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 14:37:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 17:45:40 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Cremieux — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Cremieux, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Cremieux, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Cremieux, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 20 Aug 2026 18:42:59 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_3082b747866447b9-cremieux</guid>
+      <itunes:duration>00:31:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/cremieux.mp3" length="29907117" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Melanie Mitchell — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Melanie Mitchell, with synthetic narration.</description>
