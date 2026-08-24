@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 13:27:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 13:29:53 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>George Hotz — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of George Hotz, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of George Hotz, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of George Hotz, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Sat, 22 Aug 2026 22:52:44 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_d818425d336f415a-george-hotz</guid>
+      <itunes:duration>00:18:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/george-hotz.mp3" length="17820333" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Nat Friedman — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Nat Friedman, with synthetic narration.</description>
