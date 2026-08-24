@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 13:29:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 13:32:04 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -46,6 +46,19 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/nat-friedman.mp3" length="23969325" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Balaji Srinivasan — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Balaji Srinivasan, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Balaji Srinivasan, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Balaji Srinivasan, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Sat, 22 Aug 2026 21:51:48 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_e835d4c1e7d84195-balaji-srinivasan</guid>
+      <itunes:duration>00:28:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/balaji-srinivasan.mp3" length="27371565" type="audio/mpeg"/>
     </item>
     <item>
       <title>Vitalik Buterin — Ideas, Life, and Influence</title>
@@ -176,19 +189,6 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/kevin-kelly.mp3" length="12638736" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Balaji Srinivasan — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Sun, 05 Jul 2026 22:49:40 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260705_182404_balaji_srinivasan-balaji-srinivasan</guid>
-      <itunes:duration>00:33:27</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/balaji-srinivasan.mp3" length="12039840" type="audio/mpeg"/>
     </item>
     <item>
       <title>Ray Kurzweil — Research Briefing</title>
