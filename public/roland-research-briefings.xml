@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 11:00:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 11:02:38 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -33,6 +33,19 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/vitalik-buterin.mp3" length="28996653" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Brian Armstrong — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Brian Armstrong, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Brian Armstrong, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Brian Armstrong, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Sat, 22 Aug 2026 12:13:32 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_9197233825ae4d15-brian-armstrong</guid>
+      <itunes:duration>00:30:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/brian-armstrong.mp3" length="29472045" type="audio/mpeg"/>
     </item>
     <item>
       <title>Cremieux — Ideas, Life, and Influence</title>
