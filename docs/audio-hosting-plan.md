@@ -1,6 +1,27 @@
 # Audio hosting plan: getting episode MP3s out of the repo
 
-Status: proposal, not yet executed. Measured 2026-09-02 against `main` @ `1c39863`.
+Measured 2026-09-02 against `main` @ `1c39863`.
+
+## Status
+
+| Stage | State |
+| --- | --- |
+| Tooling + validator | **Done** — `validate_public.py` accepts both hosting layouts, `migrate_audio_to_release.py` automates stages 0–2, 23 tests cover both, all wired into CI |
+| S0 spike | **Blocked here** — needs credentials this session does not have |
+| S1 forward fix | Needs a change in the external generator (out of this repo) |
+| S2 backfill | One command, once someone runs it with a `contents: write` token |
+| S3 remove from tree | After S2 plus a 1–2 week overlap |
+| S4 history rewrite | Optional, deliberately deferred |
+
+Stages 0, 2 and 3 could not be executed from the session that wrote this:
+release creation returns `403 Creating, editing, or deleting releases is not
+permitted for this session type`. They are automated instead, so running them
+is one command rather than 24 manual uploads.
+
+The full path was rehearsed end to end against a copy of the real tree with
+stand-in audio at true byte sizes. Validation passes at every stage —
+before (24 on Pages), during the overlap (24 on Releases, audio still on
+disk), and after removal — with every `<guid>` unchanged.
 
 ## 1. The forcing function
 
@@ -65,7 +86,7 @@ That last point is the one open risk — see stage 0.
 
 ## 3. Plan
 
-### Stage 0 — spike: confirm the served Content-Type (30 min, do this first)
+### Stage 0 — spike: confirm the served Content-Type (do this first)
 
 The signed redirect URL carries explicit `rsct=` (response content type) and
 `rscd=` parameters, which are populated from the asset's stored `content_type`.
@@ -75,29 +96,22 @@ with `Content-Type: audio/mpeg` *should* make GitHub serve the MP3 as
 the public API for other repos is unreachable from this environment, so prove
 it with one throwaway upload before committing to the design.
 
+The migration tool reports the served content type during its verify phase, so
+the spike is now just a dry run plus a single-episode execute against a
+throwaway tag:
+
 ```bash
-OWNER=paulrishar-design; REPO=roland-research-briefings
-# 1. create a draft release so nothing is user-visible while testing
-REL=$(curl -sS -X POST -H "Authorization: Bearer $TOKEN" \
-  -H "Accept: application/vnd.github+json" \
-  https://api.github.com/repos/$OWNER/$REPO/releases \
-  -d '{"tag_name":"audio-spike","name":"spike","draft":true}' | python3 -c 'import sys,json;print(json.load(sys.stdin)["id"])')
+export GITHUB_TOKEN=...   # needs contents: write
 
-# 2. upload one MP3 with an explicit audio content type
-curl -sS -X POST -H "Authorization: Bearer $TOKEN" \
-  -H "Content-Type: audio/mpeg" \
-  --data-binary @public/episodes/alex-finn.mp3 \
-  "https://uploads.github.com/repos/$OWNER/$REPO/releases/$REL/assets?name=alex-finn.mp3"
+# see exactly what would happen, touching nothing
+python3 scripts/migrate_audio_to_release.py
 
-# 3. observe what is actually served (expect: 206, audio/mpeg)
-curl -sSL -r 0-99 -o /dev/null -D - \
-  "https://github.com/$OWNER/$REPO/releases/download/audio-spike/alex-finn.mp3" \
-  | grep -iE '^(HTTP/|content-type|content-range|accept-ranges)'
-
-# 4. delete the draft release
-curl -sS -X DELETE -H "Authorization: Bearer $TOKEN" \
-  https://api.github.com/repos/$OWNER/$REPO/releases/$REL
+# real upload of the whole set to a scratch tag, then read the reported type
+python3 scripts/migrate_audio_to_release.py --execute --tag audio-spike
 ```
+
+The verify phase prints `served Content-Type:` and flags it explicitly if it is
+not `audio/mpeg`. Delete the scratch release afterwards.
 
 **If it serves `audio/mpeg`:** proceed as planned.
 **If it serves `application/octet-stream` regardless:** proceed anyway, but
@@ -141,12 +155,22 @@ come from an external generator. That generator must change to:
 Order matters. **Upload and verify before touching the feed**, so there is never
 a moment where the feed advertises a URL that 404s.
 
-1. Upload all 24 MP3s to the `audio` release.
-2. Verify all 24 resolve (`curl -sSLo /dev/null -w '%{http_code}'`) and that
-   each `Content-Length` matches the `length` attribute already in the feed.
-3. Rewrite the 24 `<enclosure url>` values to the release URLs. Leave
-   **`<guid>` untouched** — see §4.
-4. Commit the feed change alone. `public/episodes/` stays in place for now.
+`scripts/migrate_audio_to_release.py` does all of it, in that order, and
+refuses to touch the feed if any asset fails verification:
+
+```bash
+export GITHUB_TOKEN=...
+
+python3 scripts/migrate_audio_to_release.py                       # dry run
+python3 scripts/migrate_audio_to_release.py --execute             # upload + verify
+python3 scripts/migrate_audio_to_release.py --execute --rewrite-feed
+python3 scripts/validate_public.py --check-remote
+```
+
+It is idempotent — assets already attached at the right size are skipped, and
+the feed rewrite is a no-op once applied — so an interrupted run is resumed by
+running it again. `<guid>` values are never touched. Commit the feed change on
+its own; `public/episodes/` stays in place for now.
 
 ### Stage 3 — remove the audio from the tree (after an overlap period)
 
@@ -200,8 +224,8 @@ ordering and the overlap window are specifically designed to prevent.
 
 ## 5. Code in this repo that must change
 
-**`scripts/validate_public.py` will fail CI the moment stage 2 lands.** Two
-checks assume audio lives in the tree:
+**Done.** `scripts/validate_public.py` used to have two checks that assumed
+audio lives in the tree, and would have failed CI the moment stage 2 landed:
 
 ```python
 # breaks: release URLs have no matching file under public/
@@ -214,7 +238,7 @@ if not audio_files or any(path.stat().st_size == 0 for path in audio_files):
     fail("episode audio is missing or empty")
 ```
 
-Replace with logic that classifies each enclosure by URL:
+These are now replaced by logic that classifies each enclosure by URL:
 
 - **Pages-hosted** (under the Pages base URL) → must exist in `public/`, as today.
   Keeps the validator correct during the stage-2/3 overlap, when the feed is
@@ -225,8 +249,14 @@ Replace with logic that classifies each enclosure by URL:
 - Replace the "episodes dir is non-empty" check with "the feed has at least one
   enclosure and every enclosure carries a non-zero `length` and a
   `type="audio/mpeg"`".
-- Optionally add an opt-in `--check-remote` flag that HEADs each release URL,
-  for use on a schedule rather than on every push (it costs network in CI).
+- An opt-in `--check-remote` flag range-GETs each release URL, for use on a
+  schedule or by hand rather than on every push, since it costs network in CI.
+
+Shared constants live in `scripts/podcast_config.py` so the validator and the
+migration tool cannot drift on what a valid enclosure URL looks like.
+`scripts/test_validate_public.py` (16 tests) and
+`scripts/test_migrate_audio.py` (7 tests) cover both, including the mixed-feed
+overlap state and the leak scanning, and both run in CI ahead of validation.
 
 The secret/path-leak scanning at the top of the file is unaffected and should be
 kept exactly as-is.
@@ -237,11 +267,10 @@ removes the 10-minute-timeout concern entirely.
 
 ## 6. Suggested order of work
 
-1. Stage 0 spike — answers the one open question, ~30 minutes, fully reversible.
-2. Update `validate_public.py` to accept both URL shapes — must land *before*
-   stage 2 or CI goes red.
+1. ~~Update `validate_public.py` to accept both URL shapes~~ — **done**.
+2. Stage 0 spike — answers the one open question, fully reversible.
 3. Stage 1 forward fix in the external generator — stops new growth.
-4. Stage 2 backfill + feed rewrite.
+4. Stage 2 backfill + feed rewrite — one command.
 5. Wait 1–2 weeks.
 6. Stage 3 `git rm`.
 7. Stage 4 history rewrite, only if desired.
