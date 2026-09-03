@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:48:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:18:33 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Andrej Karpathy — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 08:14:12 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_80efbd2a04cd41a7-andrej-karpathy</guid>
+      <itunes:duration>00:29:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/andrej-karpathy.mp3" length="28101165" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Garry Tan — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Garry Tan, with synthetic narration.</description>
