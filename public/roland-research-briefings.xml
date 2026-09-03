@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 04:42:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 05:09:14 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Patrick Collison — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Patrick Collison, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Patrick Collison, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Patrick Collison, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 05:07:39 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_746ec2853b474165-patrick-collison</guid>
+      <itunes:duration>00:24:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/patrick-collison.mp3" length="23456685" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Marc Andreessen — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Marc Andreessen, with synthetic narration.</description>
@@ -371,19 +384,6 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/roman-yampolskiy.mp3" length="14779872" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Patrick Collison — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Tue, 16 Jun 2026 22:45:26 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260615_205134-patrick-collison</guid>
-      <itunes:duration>00:40:41</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/patrick-collison.mp3" length="14646096" type="audio/mpeg"/>
     </item>
     <item>
       <title>Leopold Aschenbrenner — Research Briefing</title>
