@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 23:41:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:04:23 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Jensen Huang — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Jensen Huang, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Jensen Huang, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Jensen Huang, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 00:03:42 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_d1c3da9d469c4030-jensen-huang</guid>
+      <itunes:duration>00:26:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/jensen-huang.mp3" length="25097133" type="audio/mpeg"/>
+    </item>
     <item>
       <title>David Scott Patterson — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of David Scott Patterson, with synthetic narration.</description>
@@ -176,19 +189,6 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/david-sacks.mp3" length="3650256" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Jensen Huang — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 18:17:00 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-jensen-huang</guid>
-      <itunes:duration>00:15:34</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/jensen-huang.mp3" length="5601024" type="audio/mpeg"/>
     </item>
     <item>
       <title>Curtis Yarvin — Research Briefing</title>
