@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 01:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 01:46:56 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Sam Altman — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Sam Altman, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Sam Altman, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Sam Altman, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 01:30:24 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_5a92532c80b344da-sam-altman</guid>
+      <itunes:duration>00:28:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/sam-altman.mp3" length="27080877" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Reid Hoffman — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Reid Hoffman, with synthetic narration.</description>
