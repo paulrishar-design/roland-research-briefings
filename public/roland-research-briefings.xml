@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 06:23:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:34:01 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Yann LeCun — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Yann LeCun, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Yann LeCun, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Yann LeCun, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 07:16:59 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_5037bf73e0c64b9f-yann-lecun</guid>
+      <itunes:duration>00:28:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/yann-lecun.mp3" length="27757101" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Palmer Luckey — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Palmer Luckey, with synthetic narration.</description>
