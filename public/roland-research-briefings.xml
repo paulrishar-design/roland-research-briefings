@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 08:18:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:49:19 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Ilya Sutskever — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Ilya Sutskever, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Ilya Sutskever, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Ilya Sutskever, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 08:45:55 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_7362548075c64940-ilya-sutskever</guid>
+      <itunes:duration>00:24:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ilya-sutskever.mp3" length="23765421" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Andrej Karpathy — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</description>
@@ -475,19 +488,6 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/leopold-aschenbrenner.mp3" length="15108192" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Ilya Sutskever — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Tue, 16 Jun 2026 22:41:02 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260615_205134-ilya-sutskever</guid>
-      <itunes:duration>00:50:14</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ilya-sutskever.mp3" length="18085536" type="audio/mpeg"/>
     </item>
     <item>
       <title>Byrne Hobart — Research Briefing</title>
