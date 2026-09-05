@@ -1,12 +1,22 @@
 # Audio hosting plan: getting episode MP3s out of the repo
 
-Measured 2026-09-02 against `main` @ `1c39863`.
+Measured 2026-09-02 against `main` @ `1c39863`; **re-measured 2026-09-05
+against `main` @ `d6f6955` after the 2026-09-02/03 publish run.**
+
+> **The deadline moved.** Three days after the first measurement, `public/` went
+> from 370.4 MB (36.2% of the cap) to **818.2 MB — 79.9%**. Twelve new episodes
+> landed on 2026-09-02/03 and several existing ones were re-encoded larger. The
+> mean episode is now 21.0 MB, not 15.4 MB. **Headroom is about 9 more episodes,
+> or 6 at worst-case size.** At the overall cadence that is ~13 days; at the rate
+> of the 2026-09-02/03 burst (12 episodes in 2 days) it is under a week. Stage 1
+> is no longer a planning exercise — it is the thing standing between this feed
+> and a hard publish failure.
 
 ## Status
 
 | Stage | State |
 | --- | --- |
-| Tooling + validator | **Done** — `validate_public.py` accepts both hosting layouts, `migrate_audio_to_release.py` automates stages 0–2, 23 tests cover both, all wired into CI |
+| Tooling + validator | **Done** — `validate_public.py` accepts both hosting layouts, `migrate_audio_to_release.py` automates stages 0–2, 23 tests cover both, all wired into CI (PR #2, green) |
 | S0 spike | **Blocked here** — needs credentials this session does not have |
 | S1 forward fix | Needs a change in the external generator (out of this repo) |
 | S2 backfill | One command, once someone runs it with a `contents: write` token |
@@ -19,21 +29,22 @@ permitted for this session type`. They are automated instead, so running them
 is one command rather than 24 manual uploads.
 
 The full path was rehearsed end to end against a copy of the real tree with
-stand-in audio at true byte sizes. Validation passes at every stage —
-before (24 on Pages), during the overlap (24 on Releases, audio still on
-disk), and after removal — with every `<guid>` unchanged.
+stand-in audio at true byte sizes, at both 24 and 39 episodes. Validation
+passes at every stage — before (39 on Pages), during the overlap (39 on
+Releases, audio still on disk), and after removal — with every `<guid>`
+unchanged.
 
 ## 1. The forcing function
 
 `public/` is served by GitHub Pages, which has a **hard 1 GB published-site limit**.
 
-| Measure | Value |
-| --- | --- |
-| `public/` total | 370.4 MB — **36.2% of the 1 GB Pages cap** |
-| Episodes | 24 files, mean 15.4 MB (min 3.3, max 28.5) |
-| Headroom | 654 MB ≈ **42 more episodes** at mean size, **22** at worst-case size |
-| Publish cadence | 24 episodes in 39 days ≈ 0.62/day |
-| **Projected cap date** | **~68 days (~2.3 months) at current cadence** |
+| Measure | 2026-09-02 | 2026-09-05 |
+| --- | --- | --- |
+| `public/` total | 370.4 MB — 36.2% of cap | **818.2 MB — 79.9% of cap** |
+| Episodes | 24, mean 15.4 MB (max 28.5) | **39, mean 21.0 MB (max 33.2)** |
+| Headroom | 654 MB ≈ 42 episodes | **206 MB ≈ 9 episodes (6 worst-case)** |
+| Publish cadence | 0.62/day | **0.76/day overall; 6.0/day in the last burst** |
+| **Projected cap** | ~68 days | **~13 days, or under a week at burst rate** |
 
 There are two *separate* size problems. Conflating them is the main way this
 migration goes wrong:
@@ -44,17 +55,20 @@ migration goes wrong:
   permanently — deleting an episode from the tree does not shrink it. Fixed
   only by stage 4.
 
-History already carries **61.7 MB of pure dead weight**: 13 episode paths that
-exist nowhere in the current tree, left over from the pre-`public/` layout
-(`episodes/alex-finn.mp3`) and from acceptance-test runs
+History already carried **61.7 MB of pure dead weight** as of 2026-09-02: 13
+episode paths that exist nowhere in the current tree, left over from the
+pre-`public/` layout (`episodes/alex-finn.mp3`) and from acceptance-test runs
 (`episodes/alex-wissner-gross-standalone-acceptance.mp3`, 14.6 MB;
-`episodes/youtube-miner-acceptance-handoff.mp3`, 8.0 MB). Plus one superseded
-version of `balaji-srinivasan.mp3` (11.0 MB).
+`episodes/youtube-miner-acceptance-handoff.mp3`, 8.0 MB). The 2026-09-02/03
+re-encodes added more: every superseded copy of `dario-amodei.mp3`,
+`david-sacks.mp3`, `ilya-sutskever.mp3`, `jensen-huang.mp3` and
+`patrick-collison.mp3` is still in history alongside its replacement.
 
-Secondary pressure, worth noting but not urgent: every deploy re-uploads the
-whole of `public/` as a Pages artifact. Runs currently take ~2 minutes, but run
-7 took **6m43s** against a 10-minute Pages deploy timeout. That headroom shrinks
-as the tree grows.
+Secondary pressure, and no longer merely theoretical: every deploy re-uploads
+the whole of `public/` as a Pages artifact. Runs took ~2 minutes at 370 MB. At
+818 MB the six most recent deploys took **3m19s, 2m59s, 3m57s, 5m08s, 4m59s and
+4m48s** — roughly half of the 10-minute Pages deploy timeout, and rising with
+the tree. Stage 3 takes this back to seconds.
 
 ## 2. Recommendation: GitHub Releases
 
@@ -115,7 +129,7 @@ not `audio/mpeg`. Delete the scratch release afterwards.
 
 **If it serves `audio/mpeg`:** proceed as planned.
 **If it serves `application/octet-stream` regardless:** proceed anyway, but
-test one episode end-to-end in Apple Podcasts before backfilling all 24. Most
+test one episode end-to-end in Apple Podcasts before backfilling the rest. Most
 clients key off the enclosure `type="audio/mpeg"` attribute and the `.mp3`
 extension rather than the response header, so this is very likely tolerable —
 but it is worth knowing before, not after. If a client does balk, that is the
@@ -186,7 +200,7 @@ git rm -r public/episodes
 printf 'public/episodes/\n' >> .gitignore   # belt and braces against re-adding
 ```
 
-`public/` drops from 370 MB to ~1 MB. The Pages cap problem is now solved
+`public/` drops from 818 MB to ~1 MB. The Pages cap problem is now solved
 permanently, and deploys go from ~2 minutes to seconds.
 
 ### Stage 4 — optional: reclaim the 432 MB of history
@@ -276,4 +290,5 @@ removes the 10-minute-timeout concern entirely.
 7. Stage 4 history rewrite, only if desired.
 
 Stages 1 and 2 are independent; doing stage 1 alone already caps the problem at
-today's 370 MB and buys back the full 654 MB of headroom indefinitely.
+today's 818 MB. With only ~9 episodes of headroom left, stage 1 is the one that
+cannot wait — stage 2 can follow at leisure.
