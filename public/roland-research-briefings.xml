@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 13:34:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 09:45:02 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,292 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Eliezer Yudkowsky — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Eliezer Yudkowsky, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Eliezer Yudkowsky, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Eliezer Yudkowsky, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 09:43:55 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_974f47a1655a40f9-eliezer-yudkowsky</guid>
+      <itunes:duration>00:29:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/eliezer-yudkowsky.mp3" length="28664493" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Nate Soares — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Nate Soares, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Nate Soares, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Nate Soares, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 09:10:12 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_33d27115f288406a-nate-soares</guid>
+      <itunes:duration>00:25:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/nate-soares.mp3" length="24163245" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Ilya Sutskever — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Ilya Sutskever, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Ilya Sutskever, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Ilya Sutskever, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 08:45:55 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_7362548075c64940-ilya-sutskever</guid>
+      <itunes:duration>00:24:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ilya-sutskever.mp3" length="23765421" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Andrej Karpathy — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Andrej Karpathy, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 08:14:12 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_80efbd2a04cd41a7-andrej-karpathy</guid>
+      <itunes:duration>00:29:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/andrej-karpathy.mp3" length="28101165" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Garry Tan — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Garry Tan, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Garry Tan, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Garry Tan, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 07:44:36 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_be00dd18ea5c4d36-garry-tan</guid>
+      <itunes:duration>00:16:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/garry-tan.mp3" length="15484077" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Yann LeCun — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Yann LeCun, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Yann LeCun, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Yann LeCun, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 07:16:59 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_5037bf73e0c64b9f-yann-lecun</guid>
+      <itunes:duration>00:28:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/yann-lecun.mp3" length="27757101" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Palmer Luckey — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Palmer Luckey, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Palmer Luckey, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Palmer Luckey, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 06:22:20 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_994987ceb8d14c25-palmer-luckey</guid>
+      <itunes:duration>00:32:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/palmer-luckey.mp3" length="31136301" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Dwarkesh Patel — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Dwarkesh Patel, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Dwarkesh Patel, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Dwarkesh Patel, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 05:51:10 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_045dffbeb1ba48be-dwarkesh-patel</guid>
+      <itunes:duration>00:30:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/dwarkesh-patel.mp3" length="29132973" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Dario Amodei — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Dario Amodei, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Dario Amodei, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Dario Amodei, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 05:39:59 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_d5f97ce93fb04416-dario-amodei</guid>
+      <itunes:duration>00:19:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/dario-amodei.mp3" length="18848685" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Patrick Collison — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Patrick Collison, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Patrick Collison, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Patrick Collison, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 05:07:39 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_746ec2853b474165-patrick-collison</guid>
+      <itunes:duration>00:24:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/patrick-collison.mp3" length="23456685" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Marc Andreessen — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Marc Andreessen, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Marc Andreessen, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Marc Andreessen, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 04:38:40 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_4c648ddeed3f4008-marc-andreessen</guid>
+      <itunes:duration>00:19:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/marc-andreessen.mp3" length="18773037" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Alex Wissner-Gross — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Alex Wissner-Gross, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Alex Wissner-Gross, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Alex Wissner-Gross, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 04:11:39 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_f76dc770c8be4c9e-alex-wissner-gross</guid>
+      <itunes:duration>00:21:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross.mp3" length="21016749" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>David Sacks — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of David Sacks, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of David Sacks, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of David Sacks, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 03:48:59 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_0f1fe87e7057497e-david-sacks</guid>
+      <itunes:duration>00:19:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/david-sacks.mp3" length="18458541" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Naval Ravikant — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Naval Ravikant, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Naval Ravikant, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Naval Ravikant, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 03:28:19 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_2f4a996eac784773-naval-ravikant</guid>
+      <itunes:duration>00:19:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/naval-ravikant.mp3" length="19091757" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Demis Hassabis — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Demis Hassabis, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Demis Hassabis, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Demis Hassabis, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 03:02:31 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_cfdefffe24bb4f14-demis-hassabis</guid>
+      <itunes:duration>00:36:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/demis-hassabis.mp3" length="34807341" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Chamath Palihapitiya — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Chamath Palihapitiya, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Chamath Palihapitiya, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Chamath Palihapitiya, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 02:34:14 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_d31f096ed3084029-chamath-palihapitiya</guid>
+      <itunes:duration>00:27:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/chamath-palihapitiya.mp3" length="26416173" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Sam Altman — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Sam Altman, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Sam Altman, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Sam Altman, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 01:30:24 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_5a92532c80b344da-sam-altman</guid>
+      <itunes:duration>00:28:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/sam-altman.mp3" length="27080877" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Reid Hoffman — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Reid Hoffman, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Reid Hoffman, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Reid Hoffman, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 01:05:21 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_d2f9970cabf54086-reid-hoffman</guid>
+      <itunes:duration>00:28:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/reid-hoffman.mp3" length="27594669" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Jensen Huang — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Jensen Huang, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Jensen Huang, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Jensen Huang, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Thu, 03 Sep 2026 00:03:42 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_d1c3da9d469c4030-jensen-huang</guid>
+      <itunes:duration>00:26:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/jensen-huang.mp3" length="25097133" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>David Scott Patterson — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of David Scott Patterson, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of David Scott Patterson, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of David Scott Patterson, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Wed, 02 Sep 2026 23:24:34 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_8ea6d40cbe6d4345-david-scott-patterson</guid>
+      <itunes:duration>00:16:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/david-scott-patterson.mp3" length="15776301" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Alex Finn — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Alex Finn, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Alex Finn, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Alex Finn, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Wed, 02 Sep 2026 22:12:56 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_3b7d97eafd6b4ea0-alex-finn</guid>
+      <itunes:duration>00:25:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-finn.mp3" length="24899757" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Ben Horowitz — Ideas, Life, and Influence</title>
+      <description>A source-grounded long-form profile of Ben Horowitz, with synthetic narration.</description>
+      <content:encoded>A source-grounded long-form profile of Ben Horowitz, with synthetic narration.</content:encoded>
+      <itunes:summary>A source-grounded long-form profile of Ben Horowitz, with synthetic narration.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Wed, 02 Sep 2026 21:22:04 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-unified_2c31c39de94943d4-ben-horowitz</guid>
+      <itunes:duration>00:24:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ben-horowitz.mp3" length="23566893" type="audio/mpeg"/>
+    </item>
     <item>
       <title>George Hotz — Ideas, Life, and Influence</title>
       <description>A source-grounded long-form profile of George Hotz, with synthetic narration.</description>
@@ -111,58 +397,6 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/melanie-mitchell.mp3" length="24152493" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Alex Finn — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 18:20:00 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-alex-finn</guid>
-      <itunes:duration>00:09:35</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-finn.mp3" length="3448368" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Alex Wissner-Gross — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 18:19:00 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-alex-wissner-gross</guid>
-      <itunes:duration>00:09:57</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross.mp3" length="3583296" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>David Sacks — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 18:18:00 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-david-sacks</guid>
-      <itunes:duration>00:10:08</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/david-sacks.mp3" length="3650256" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Jensen Huang — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Thu, 30 Jul 2026 18:17:00 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260730_youtube_miner_people_consolidated-jensen-huang</guid>
-      <itunes:duration>00:15:34</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/jensen-huang.mp3" length="5601024" type="audio/mpeg"/>
     </item>
     <item>
       <title>Curtis Yarvin — Research Briefing</title>
@@ -269,19 +503,6 @@
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/roman-yampolskiy.mp3" length="14779872" type="audio/mpeg"/>
     </item>
     <item>
-      <title>Patrick Collison — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Tue, 16 Jun 2026 22:45:26 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260615_205134-patrick-collison</guid>
-      <itunes:duration>00:40:41</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/patrick-collison.mp3" length="14646096" type="audio/mpeg"/>
-    </item>
-    <item>
       <title>Leopold Aschenbrenner — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
       <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
@@ -293,32 +514,6 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/leopold-aschenbrenner.mp3" length="15108192" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Ilya Sutskever — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Tue, 16 Jun 2026 22:41:02 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260615_205134-ilya-sutskever</guid>
-      <itunes:duration>00:50:14</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/ilya-sutskever.mp3" length="18085536" type="audio/mpeg"/>
-    </item>
-    <item>
-      <title>Dario Amodei — Research Briefing</title>
-      <description>Synthetic narration based on Roland research notes; not the person’s real voice.</description>
-      <content:encoded>Synthetic narration based on Roland research notes; not the person’s real voice.</content:encoded>
-      <itunes:summary>Synthetic narration based on Roland research notes; not the person’s real voice.</itunes:summary>
-      <itunes:author>Roland</itunes:author>
-      <pubDate>Tue, 16 Jun 2026 22:35:06 +0000</pubDate>
-      <guid isPermaLink="false">roland-research-20260615_205134-dario-amodei</guid>
-      <itunes:duration>00:40:30</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/dario-amodei.mp3" length="14579136" type="audio/mpeg"/>
     </item>
     <item>
       <title>Byrne Hobart — Research Briefing</title>
