@@ -6,7 +6,7 @@
     <atom:link href="https://paulrishar-design.github.io/roland-research-briefings/roland-research-briefings.xml" rel="self" type="application/rss+xml"/>
     <description>Synthetic audio briefings generated from Roland research notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 19:11:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 01:55:29 +0000</lastBuildDate>
     <itunes:author>Roland</itunes:author>
     <itunes:summary>Synthetic audio briefings generated from Roland research notes.</itunes:summary>
     <itunes:image href="https://paulrishar-design.github.io/roland-research-briefings/cover.jpg"/>
@@ -21,6 +21,19 @@
       <title>Roland Research Briefings</title>
       <link>https://paulrishar-design.github.io/roland-research-briefings/</link>
     </image>
+    <item>
+      <title>Alex Wissner-Gross Daily — September 20, 2026</title>
+      <description>Synthetic audio briefing based on Alex Wissner-Gross's September 20, 2026 Innermost Loop email; not Alex's voice and not a verbatim reading.</description>
+      <content:encoded>Synthetic audio briefing based on Alex Wissner-Gross's September 20, 2026 Innermost Loop email; not Alex's voice and not a verbatim reading.</content:encoded>
+      <itunes:summary>Synthetic audio briefing based on Alex Wissner-Gross's September 20, 2026 Innermost Loop email; not Alex's voice and not a verbatim reading.</itunes:summary>
+      <itunes:author>Roland</itunes:author>
+      <pubDate>Mon, 21 Sep 2026 01:55:05 +0000</pubDate>
+      <guid isPermaLink="false">roland-research-alex_wissner_gross_daily_20260920-alex-wissner-gross-daily</guid>
+      <itunes:duration>00:05:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://paulrishar-design.github.io/roland-research-briefings/episodes/alex-wissner-gross-daily.mp3" length="5359533" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Max Tegmark — Research Briefing</title>
       <description>Synthetic narration based on Roland research notes from a Max Tegmark YouTube research baseline; not Max Tegmark's real voice.</description>
